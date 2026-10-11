@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <RootNamespace>_1_AdivinaNumero</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Icon\icono.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Icon\{06D7884F-6E67-4BED-B5C3-33C58D3A9A80}.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icon\icono.ico" />
+  </ItemGroup>
+
+</Project>
