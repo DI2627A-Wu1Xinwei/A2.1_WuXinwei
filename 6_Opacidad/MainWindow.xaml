@@ -1,0 +1,25 @@
+﻿<Window x:Class="_6_Opacidad.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_6_Opacidad"
+        mc:Ignorable="d"
+        Title="Opacidad" Height="450" Width="1000"
+        Icon="/Icon/icono.ico">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="747*"/>
+            <ColumnDefinition Width="53*"/>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="imagen1" Grid.Column="0" Source="Imagenes/episodioIV.jpg" Stretch="Uniform"
+               Margin="-282,15,259,15" Opacity="0.5"
+               MouseEnter="Imagen_Opacidad" MouseLeave="Imagen_Opacidad"/>
+        <Image x:Name="imagen2" Source="Imagenes/episodioV.jpg" Stretch="Uniform"
+               Margin="31,15,-1,15" Opacity="0.5"
+               MouseEnter="Imagen_Opacidad" MouseLeave="Imagen_Opacidad" Grid.ColumnSpan="2"/>
+        <Image x:Name="imagen3" Source="Imagenes/episodioVI.jpg" Stretch="Uniform"
+               Margin="351,15,-321,15" Opacity="0.5"
+               MouseEnter="Imagen_Opacidad" MouseLeave="Imagen_Opacidad" Grid.ColumnSpan="2"/>
+    </Grid>
+</Window>

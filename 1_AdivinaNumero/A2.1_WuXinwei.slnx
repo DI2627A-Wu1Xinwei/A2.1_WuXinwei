@@ -3,5 +3,8 @@
   <Project Path="../3_Imagen/3_Imagen.csproj" Id="68c7f372-3222-4289-9c47-a378cdc8c1f4" />
   <Project Path="../4_CaracteresLimitados/4_CaracteresLimitados.csproj" Id="71819a6d-38f5-4c05-9570-ff4013078852" />
   <Project Path="../5_FormatoTexto/5_FormatoTexto.csproj" Id="90d14240-7bb8-4ddb-8628-627f6eb52d17" />
+  <Project Path="../6_Opacidad/6_Opacidad.csproj" Id="d1e2c5dd-e7c7-44f6-adda-0561c6d3373c" />
+  <Project Path="../7_TamanyoTexto/7_TamanyoTexto.csproj" Id="d0440312-a5fb-407c-9f1c-d32a8866c22e" />
+  <Project Path="../8_CuadrosTexto/8_CuadrosTexto.csproj" Id="0055ad74-ad20-4b07-ad8c-2531a5f25149" />
   <Project Path="1_AdivinaNumero.csproj" />
 </Solution>

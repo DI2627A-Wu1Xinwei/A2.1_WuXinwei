@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <RootNamespace>_6_Opacidad</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Icon\icono.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Imagenes\episodioIV.jpg" />
+    <None Remove="Imagenes\episodioV.jpg" />
+    <None Remove="Imagenes\episodioVI.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icon\icono.ico" />
+    <Resource Include="Imagenes\episodioIV.jpg" />
+    <Resource Include="Imagenes\episodioV.jpg" />
+    <Resource Include="Imagenes\episodioVI.jpg" />
+  </ItemGroup>
+
+</Project>
